@@ -61,8 +61,8 @@ export const InteractiveCloudBackground = () => {
   return (
     <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden bg-[#07090E]">
       {/* Minimalist Ambient Deep Glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] rounded-full bg-cyan-950/20 blur-[140px]" />
-      <div className="absolute bottom-10 right-1/4 w-[500px] h-[400px] rounded-full bg-sky-950/15 blur-[120px]" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-175 h-125 rounded-full bg-cyan-950/20 blur-[140px]" />
+      <div className="absolute bottom-10 right-1/4 w-125 h-100 rounded-full bg-sky-950/15 blur-[120px]" />
 
       {/* Floating Interactive Clouds & Particles */}
       {particles.map((p) => {
@@ -97,7 +97,7 @@ export const InteractiveCloudBackground = () => {
                 height={p.size * 0.6}
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="text-cyan-400/[0.04] hover:text-cyan-400/[0.08] transition-colors duration-500 blur-[0.5px]"
+                className="text-cyan-400/4 hover:text-cyan-400/8 transition-colors duration-500 blur-[0.5px]"
               >
                 <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" />
               </svg>
