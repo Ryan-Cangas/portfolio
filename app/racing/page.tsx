@@ -13,7 +13,7 @@ export default function RacingPage() {
           <span>●</span> Dubai Autodrome Kartdrome
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-5xl">
-          Sim Racing & Track Seat Time
+          Race with me!
         </h1>
         <p className="mx-auto max-w-2xl text-sm sm:text-base text-zinc-400">
           Outdoor karting hot laps, telemetry data, and direct-drive sim setup
